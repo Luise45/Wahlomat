@@ -1,6 +1,7 @@
 <h1>HTWahl-O-Mat – Backend</h1>
-
 <br>
+
+<h2>English version below!</h2>
 
 <h3>Inhaltsverzeichnis</h3>
 <ol>
@@ -16,8 +17,27 @@
       style="color: #76b900;">Vorgehen</a></li>
     </ol>
   </li>
-  <li><a href="#code" style="color: #76b900;">Code-Dokumentation</a></li>
+  <li><a
+        href="#code" style="color: #76b900;">Code-Dokumentation</a></li>
+ <li>  <a
+        href="#english" style="color: #76b900;">English version </a>
+</li>
 </ol>
+<h2>Team</h2>
+<h4> Product Owner:</h4>
+Danusika Kirupakan 
+
+<h4>Scrum Master: </h4>
+Nicole Eisner
+
+<h4>Developer: </h4>
+Celine Dumke,
+Luise Tabatt,
+Natalia Schmnidt,
+Gamze Bektas,
+Cemre Karsli,
+Delal Erdogan,
+Maeva Nguemezi
 
 <hr>
 
@@ -73,7 +93,6 @@
   REST</li> <li><strong>API-Dokumentation:</strong> OpenAPI / Swagger</li>
 </ul>
 
-<hr>
 
 <h2 id="installation">Anleitung zur Installation</h2>
 
@@ -164,3 +183,58 @@ betrieben werden.
   Der Source-Code ist mit <strong>JavaDoc</strong> dokumentiert, um Wartung und
   Weiterentwicklung zu erleichtern.
 </p>
+
+<p>
+
+  
+</p>
+
+
+
+<h2  id="english"> English version of readme </h2>
+
+This repository contains the backend of the Wahl-O-Mat (Full-Stack) project. 
+This is being developed for university intern elections. Last year only 5% of students voted in the elections. With this we hope to simplify the voting process and therefore encourage a higher number of people to give in their vote.
+The voter and candidates can both give ratings to questions. Based on those numbers the fitting top candidates per party are given to the voters. 
+
+The application also provides secure authentication, reset password, candidate profiles, and result calculations.
+
+ <h2>Team</h2>
+<h4> Product Owner:</h4>
+Danusika Kirupakan 
+
+<h4>Scrum Master: </h4>
+Nicole Eisner
+
+<h4>Developer: </h4>
+Celine Dumke,
+Luise Tabatt,
+Natalia Schmnidt,
+Gamze Bektas,
+Cemre Karsli,
+Delal Erdogan,
+Maeva Nguemezi
+
+
+ <h2>Features</h2>
+ 
+- User registration and login (voters & candidates)
+- Secure authentication and authorization (JWT token)
+- Voting process with validation
+- Automatic vote counting and result calculation
+- RESTful API for frontend integration
+- API documentation with Swagger
+- Code documentation with Javadoc
+- Unit tests with JUnit
+
+
+<h2>Tech Stack</h2>
+
+- Language:Java
+- Framework: Spring Boot
+- Database: PostgreSQL
+- ORM: Spring Data JPA / Hibernate
+- API Documentation**: Swagger (OpenAPI)
+- Documentation: Javadoc
+- Build Tool: Maven
+- Testing: Junit and Integration tests with h2

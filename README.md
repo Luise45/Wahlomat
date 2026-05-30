@@ -1,64 +1,157 @@
-<h1>HTWahl-O-Mat – Backend</h1>
-<br>
+<h6> NB!
+  This repository contains a copy of the backend code from a team project done at university. The original code is in a privat gitlab repository.
+  Below is a copy of the Readme file for the project in german ( English Info at the end). 
+  Since I worked in the backend, I only incuded that code. The code was uploaded with permission of the team. Info about tean below.
+</h6>
 
-<h2>English version below!</h2>
+</p>
+<h1>HTWahl-O-Mat – Backend and Frontend</h1>
 
-<h3>Inhaltsverzeichnis</h3>
-<ol>
-  <li><a href="#ueberblick" style="color: #76b900;">Überblick</a></li> <li><a
-  href="#technologien" style="color: #76b900;">Angewandte Technologien</a></li>
-  <li>
-    <a href="#installation" style="color: #76b900;">Anleitung zur
-    Installation</a>
-    <ol type="I">
-      <li><a href="#voraussetzungen" style="color:
-      #76b900;">Voraussetzungen</a></li> <li><a href="#database" style="color:
-      #76b900;">Datenbank-Abhängigkeit</a></li> <li><a href="#vorgehen"
-      style="color: #76b900;">Vorgehen</a></li>
-    </ol>
-  </li>
-  <li><a
-        href="#code" style="color: #76b900;">Code-Dokumentation</a></li>
- <li>  <a
-        href="#english" style="color: #76b900;">English version </a>
-</li>
-</ol>
-<h2>Team</h2>
-<h4> Product Owner:</h4>
-Danusika Kirupakan 
 
-<h4>Scrum Master: </h4>
-Nicole Eisner
-
-<h4>Developer: </h4>
-Celine Dumke,
-Luise Tabatt,
-Natalia Schmnidt,
-Gamze Bektas,
-Cemre Karsli,
-Delal Erdogan,
-Maeva Nguemezi
-
-<hr>
+<!-- –––––––––– ÜBERBLICK  –––––––––– -->
 
 <h2 id="ueberblick">Überblick</h2>
 
 <p>
-  Studierende der HTW können mit diesem Wahl-O-Mat, einer webbasierten
-  Anwendung, vorgegebene Aussagen zu hochschulpolitischen Themen bewerten, indem
-  sie Punkte vergeben. <br>
-      
-  Die Bewertungen werden mit den Positionen von Kandidat*innen und Listen
-  verglichen, um Übereinstimmungen sichtbar zu machen.<br>
-      
-  Auf diese Weise erhalten Studierende einen Überblick darüber, welche Personen
-  oder Listen ihren eigenen Ansichten am nächsten stehen. <br>
-      
-  Ziel der Anwendung ist es, eine einfache und verständliche Orientierungshilfe
-  für die Hochschulwahlen bereitzustellen.
+  Studierende der HTW können mit diesem Wahl-O-Mat, eineƒr webbasierten Anwendung, vorgegebene Aussagen zu hochschulpolitischen Themen bewerten, indem sie Punkte vergeben. <br>
+  
+  Die Bewertungen werden mit den Positionen von Kandidat*innen und Listen verglichen, um Übereinstimmungen sichtbar zu machen.<br>
+  
+  Auf diese Weise erhalten Studierende einen Überblick darüber, welche Personen oder Listen ihren eigenen Ansichten am nächsten stehen. <br>
+  
+  Ziel der Anwendung ist es, eine einfache und verständliche Orientierungshilfe für die Hochschulwahlen bereitzustellen.
 </p>
 
 <br>
+
+<details open>
+  <summary> Zusätliche Features </summary> 
+
+  <hr style="opacity:0.2">
+  <div style="margin-left: 1.5em;">
+    <h4>Kandidat</h4>
+    <p> Das System bietet registrierten Kandidat*innen die Möglichkeit, eigene Positionen zu den vorgegebenen Aussagen zu hinterlegen. </p>
+    <p> Nach der Registrierung können Kandidat*innen ihre Bewertungen speichern und sich einer oder mehreren Wahllisten zuordnen. Die eingegebenen Daten werden persistent in der Datenbank gespeichert und vom Backend verwaltet. </p>
+    <p> Auf diese Weise werden Kandidat*innen strukturiert im System erfasst und für die weitere Verarbeitung innerhalb der Anwendung bereitgestellt. </p>
+  </div>
+  <hr style="opacity:0.2">
+  <div style="margin-left: 1.5em;">
+    <h4>Admin</h4>
+    <p> Administrator*innen verfügen über erweiterte Rechte zur systemweiten Steuerung und Pflege der Daten. Dazu gehören unter anderem das Anlegen und Verwalten von Gremien, das Hinzufügen und Bearbeiten von Aussagen sowie die Validierung von Wahllisten. </p>
+    <p> Darüber hinaus können Administrator*innen Kandidat*innen und Listen löschen oder anpassen und erhalten einen umfassenden Überblick über die im System gespeicherten Daten.</p>
+    <p> Der Zugriff auf diese Funktionen ist ausschließlich autorisierten Benutzer*innen vorbehalten. </p>
+  </div>
+  <hr style="opacity:0.2">
+
+<br>
+</details>
+
+
+
+<!-- –––––––––– SCREENSHOTS –––––––––– -->
+
+<details open>
+<summary>
+Screenshots
+</summary> <br />
+
+<p align="center">
+<img width="49%"  alt="startseite" src="https://github.com/user-attachments/assets/43db17ea-1308-4261-af2d-7b5983bae422" />
+<img width="49%"  alt="start" src="https://github.com/user-attachments/assets/6967c431-0b56-476f-bedd-25f0f365b1b4" />  
+</p>
+
+<p align="center">
+<img width="49%"  alt="fragebogen" src="https://github.com/user-attachments/assets/507f6085-e3fe-467e-aba2-6d10ea4cb739" />
+<img width="49%"  alt="register" src="https://github.com/user-attachments/assets/3d846e80-d210-4227-9c67-67a7d72398af" />
+</p>
+
+
+<p align="center">
+ <img width="49%"  alt="fachbereich" src="https://github.com/user-attachments/assets/9c1a0178-ebe6-49ac-9e6a-bf27a9e267b7" />
+ <img width="49%"  alt="ergebnis" src="https://github.com/user-attachments/assets/0cbe2c41-5d4d-4407-913c-a66e6034374a" />
+</p>
+
+<br><br>
+</details>
+
+<br>
+
+<hr>
+
+<!-- –––––––––– TECHNOLOGIEN –––––––––– -->
+
+<h2 id="technologien">Angewandte Technologien</h2>
+
+<ul>
+  <li><strong>Frontend:</strong> JavaScript (Angular)</li>
+  <li><strong>Backend:</strong> Spring Boot</li>
+  <li><strong>Datenbank:</strong> PostgreSQL</li>
+  <li><strong>Programmiersprache:</strong> Java</li>
+  <li><strong>Datenbank:</strong> PostgreSQL</li> <li><strong>API:</strong>
+  REST</li> <li><strong>API-Dokumentation:</strong> OpenAPI / Swagger</li>
+</ul>
+
+<hr>
+
+
+
+
+
+<!-- –––––––––– TEAM –––––––––– -->
+
+<h3 id="authors">Autor*innen</h3>
+
+<p>Dieses Projekt wurde im Rahmen eines Hochschulprojekts entwickelt von:</p> 
+
+<br>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
+
+  <div style="text-align: center;">
+    <p><strong>Nicole Eisner</strong><br>
+    <p style="font-weight: 300;">Scrum-Master</p>
+  </div>
+
+  <div style="text-align: center;">
+    <p><strong>Danusika Kirupakaran</strong><br>
+    <p style="font-weight: 300;">Product Owner</p>
+  </div>
+
+  <div style="text-align: center;">
+    <p><strong>Celine Dumke</strong><br>
+    <p style="font-weight: 300;">Developer</p>
+  </div>
+
+  <div style="text-align: center;">
+    <p><strong>Luise Tabatt</strong><br>
+    <p style="font-weight: 300;">Developer</p>
+  </div>
+
+  <div style="text-align: center;">
+    <p><strong>Natalia Schmidt</strong><br>
+    <p style="font-weight: 300;">Developer</p>
+  </div>
+
+  <div style="text-align: center;">
+    <p><strong>Gamze Bektas</strong><br>
+    <p style="font-weight: 300;">Developer</p>
+  </div>
+
+  <div style="text-align: center;">
+    <p><strong>Cemre Karsli</strong><br>
+    <p style="font-weight: 300;">Developer</p>
+  </div>
+
+  <div style="text-align: center;">
+    <p><strong>Delal Erdogan</strong><br>
+    <p style="font-weight: 300;">Developer</p>
+  </div>
+
+  <div style="text-align: center;">
+    <p><strong>Maeva Nguemezi</strong><br>
+    <p style="font-weight: 300;">Developer</p>
+  </div>
+
 
 <blockquote>
 <p>
@@ -84,29 +177,7 @@ Maeva Nguemezi
 
 <hr>
 
-<h2 id="technologien">Angewandte Technologien</h2>
 
-<ul>
-  <li><strong>Programmiersprache:</strong> Java</li>
-  <li><strong>Framework:</strong> Spring Boot</li>
-  <li><strong>Datenbank:</strong> PostgreSQL</li> <li><strong>API:</strong>
-  REST</li> <li><strong>API-Dokumentation:</strong> OpenAPI / Swagger</li>
-</ul>
-
-
-<h2 id="installation">Anleitung zur Installation</h2>
-
-<h3 id="voraussetzungen">Voraussetzungen</h3>
-
-<p>Für die lokale Ausführung des Frontends werden folgende Komponenten
-benötigt:</p>
-
-<ul>
-  <li>Git</li> <li>Java JDK</li> <li>Maven (oder Maven Wrapper)</li>
-  <li>VPN-Zugang zur HTW</li>
-</ul>
-
-<br>
 
 <h3 id="database">Datenbank-Abhängigkeit</h3>
 
@@ -130,48 +201,6 @@ betrieben werden.
 
 <br>
 
-<h3 id="vorgehen">Vorgehen</h3>
-
-<ol>
-  <li>
-    <strong>Repository klonen</strong> <pre><code>git clone
-    https://gitlab.rz.htw-berlin.de/s0575626/wahlomat-backend</code></pre>
-  </li>
-
-  <li>
-    <strong>Projekt bauen</strong> <pre><code>./mvnw clean install</code></pre>
-  </li>
-
-  <li>
-    <strong>Backend starten</strong> <pre><code>./mvnw
-    spring-boot:run</code></pre>
-  </li>
-
-  <li>
-    <strong>API prüfen (Swagger)</strong>
-    <pre><code>http://localhost:8080/swagger-ui/index.html</code></pre>
-  </li>
-
-  <li>
-    <strong>Frontend installieren</strong>
-    <p>
-  <a href="https://gitlab.rz.htw-berlin.de/s0575626/wahlomat-frontend" style="color: #76b900;">
-    HTWahl-O-Mat Frontend
-  </a>
-</p>
-
-  </li>
-
-</ol>
-
-<br>
-
-<blockquote>
-  <p>
-    Bei erfolgreicher Installation läuft das Backend gemeinsam mit dem Frontend
-    als Anwendung im Browser über 'http://localhost:4200'
-  </p>
-</blockquote>
 
 <br>
 

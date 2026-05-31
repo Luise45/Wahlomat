@@ -14,11 +14,9 @@
 
 <p>
   Studierende der HTW können mit diesem Wahl-O-Mat, eineƒr webbasierten Anwendung, vorgegebene Aussagen zu hochschulpolitischen Themen bewerten, indem sie Punkte vergeben. <br>
-  
+
   Die Bewertungen werden mit den Positionen von Kandidat*innen und Listen verglichen, um Übereinstimmungen sichtbar zu machen.<br>
-  
-  Auf diese Weise erhalten Studierende einen Überblick darüber, welche Personen oder Listen ihren eigenen Ansichten am nächsten stehen. <br>
-  
+  Auf diese Weise erhalten Studierende einen Überblick darüber, welche Personen oder Listen ihren eigenen Ansichten am nächsten stehen. <br> 
   Ziel der Anwendung ist es, eine einfache und verständliche Orientierungshilfe für die Hochschulwahlen bereitzustellen.
 </p>
 
@@ -85,7 +83,6 @@ Screenshots
 <ul>
   <li><strong>Frontend:</strong> JavaScript (Angular)</li>
   <li><strong>Backend:</strong> Spring Boot</li>
-  <li><strong>Datenbank:</strong> PostgreSQL</li>
   <li><strong>Programmiersprache:</strong> Java</li>
   <li><strong>Datenbank:</strong> PostgreSQL</li> <li><strong>API:</strong>
   REST</li> <li><strong>API-Dokumentation:</strong> OpenAPI / Swagger</li>
@@ -108,50 +105,22 @@ Screenshots
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
 
   <div style="text-align: center;">
-    <p><strong>Nicole Eisner</strong><br>
-    <p style="font-weight: 300;">Scrum-Master</p>
+    <p><strong>Nicole Eisner</strong><br> <p style="font-weight: 300;">(Scrum-Master)</p>
   </div>
 
   <div style="text-align: center;">
-    <p><strong>Danusika Kirupakaran</strong><br>
-    <p style="font-weight: 300;">Product Owner</p>
+    <p><strong>Danusika Kirupakaran</strong><br> <p style="font-weight: 300;">(Product Owner)</p>
   </div>
-
+  
+  <div>
+<p style="font-weight: 300;">Developer: </p>
+  </div>
+  
   <div style="text-align: center;">
-    <p><strong>Celine Dumke</strong><br>
-    <p style="font-weight: 300;">Developer</p>
+    <p><strong>Celine Dumke, Luise Tabatt, Natalia Schmidt, Gamze Bektas, Cemre Karsli,Delal Erdogan, Maeva Nguemezi </strong><br>
   </div>
-
-  <div style="text-align: center;">
-    <p><strong>Luise Tabatt</strong><br>
-    <p style="font-weight: 300;">Developer</p>
-  </div>
-
-  <div style="text-align: center;">
-    <p><strong>Natalia Schmidt</strong><br>
-    <p style="font-weight: 300;">Developer</p>
-  </div>
-
-  <div style="text-align: center;">
-    <p><strong>Gamze Bektas</strong><br>
-    <p style="font-weight: 300;">Developer</p>
-  </div>
-
-  <div style="text-align: center;">
-    <p><strong>Cemre Karsli</strong><br>
-    <p style="font-weight: 300;">Developer</p>
-  </div>
-
-  <div style="text-align: center;">
-    <p><strong>Delal Erdogan</strong><br>
-    <p style="font-weight: 300;">Developer</p>
-  </div>
-
-  <div style="text-align: center;">
-    <p><strong>Maeva Nguemezi</strong><br>
-    <p style="font-weight: 300;">Developer</p>
-  </div>
-
+<br>
+<hr>
 
 <blockquote>
 <p>
@@ -173,38 +142,6 @@ Screenshots
 </p>
 </blockquote>
 
-<br>
-
-<hr>
-
-
-
-<h3 id="database">Datenbank-Abhängigkeit</h3>
-
-<p>
-  Das Backend nutzt eine PostgreSQL-Datenbank, die auf einem internen Server
-  betrieben wird.
-</p>
-
-<blockquote>
-  <p>
-    Ein Zugriff auf die Datenbank ist nur aus dem HTW-Netz oder über eine aktive
-    VPN-Verbindung möglich.<br> Ein direkter Zugriff durch externe Nutzer ist
-    nicht vorgesehen.
-  </p>
-</blockquote>
-
-<p>
-Ohne aktive Netzwerkverbindung zur HTW kann das Backend nicht vollständig
-betrieben werden.
-</p>
-
-<br>
-
-
-<br>
-
-<hr>
 
 <h2 id="code">Code-Dokumentation</h2>
 
@@ -215,11 +152,14 @@ betrieben werden.
 
 <p>
 
+<br>
+<hr>
+<br>
+
+
+
   
 </p>
-
-
-
 <h2  id="english"> English version of readme </h2>
 
 This repository contains the backend of the Wahl-O-Mat (Full-Stack) project. 

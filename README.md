@@ -1,6 +1,12 @@
 
 <h1>HTWahl-O-Mat (Backend)</h1>
 
+![Database](https://img.shields.io/badge/SpringBoot-blue)
+![DDl & DML Skript](https://img.shields.io/badge/Angular-orange)
+![Databse Diagram ](https://img.shields.io/badge/SQLDatabase-red)
+![Databse Diagram ](https://img.shields.io/badge/Swagger/OpenAPI-green)
+![Databse Diagram ](https://img.shields.io/badge/JWT-yellow)
+
 <h2> About this Repository </h2>
 
 This repository contains the backend portion of a university team project developed at HTW Berlin.

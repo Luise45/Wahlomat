@@ -1,76 +1,93 @@
-<h6> NB!
-  This repository contains a copy of the backend code from a team project done at university. The original code is in a privat gitlab repository.
-  Below is a copy of the Readme file for the project in german ( English Info at the end). 
-  Since I worked in the backend, I only incuded that code. The code was uploaded with permission of the team. Info about tean below.
-</h6>
 
-</p>
-<h1>HTWahl-O-Mat – Backend and Frontend</h1>
+<h1>HTWahl-O-Mat (Backend)</h1>
+
+<h2> About this Repository </h2>
+
+This repository contains the backend portion of a university team project developed at HTW Berlin.
+The original project was developed collaboratively in a private GitLab repository. 
+Since my primary contribution was backend development, this repository contains only the backend code and has been published with permission from the project team.
+
+<h3> My Contributions </h3>
+<ul>
+  <li>Backend development using Spring Boot </li>
+  <li>Design and implementation of REST APIs </li>
+  <li>JWT-based authentication and authorization </li>
+  <li> PostgreSQL database integration</li>
+  <li> API documentation using Swagger/OpenAPI </li>
+  <li> JavaDoc documentation</li>
+</ul>
 
 
-<!-- –––––––––– ÜBERBLICK  –––––––––– -->
-
-<h2 id="ueberblick">Überblick</h2>
+<h2 id="ueberblick">Project Overview</h2>
 
 <p>
-  Studierende der HTW können mit diesem Wahl-O-Mat, eineƒr webbasierten Anwendung, vorgegebene Aussagen zu hochschulpolitischen Themen bewerten, indem sie Punkte vergeben. <br>
 
-  Die Bewertungen werden mit den Positionen von Kandidat*innen und Listen verglichen, um Übereinstimmungen sichtbar zu machen.<br>
-  Auf diese Weise erhalten Studierende einen Überblick darüber, welche Personen oder Listen ihren eigenen Ansichten am nächsten stehen. <br> 
-  Ziel der Anwendung ist es, eine einfache und verständliche Orientierungshilfe für die Hochschulwahlen bereitzustellen.
+HTWahl-O-Mat is a web application made for university elections. The idea came from the fact, that only a small percentage of student participate in the elections. With this application we wanted to simplifiy the process and get more students to vote. 
+The process is made up of predefined statements, which both students and cadidates assess with points. Then the system calculates matches, based on the points given to each statement,  and provides an overview of which candidates and committees align most closely with the student's views.
+The goal of the application is to provide transparent and accessible guidance for university elections.
+
 </p>
 
 <br>
 
-<details open>
-  <summary> Zusätliche Features </summary> 
+<h2> Features </h2>
 
-  <hr style="opacity:0.2">
-  <div style="margin-left: 1.5em;">
-    <h4>Kandidat</h4>
-    <p> Das System bietet registrierten Kandidat*innen die Möglichkeit, eigene Positionen zu den vorgegebenen Aussagen zu hinterlegen. </p>
-    <p> Nach der Registrierung können Kandidat*innen ihre Bewertungen speichern und sich einer oder mehreren Wahllisten zuordnen. Die eingegebenen Daten werden persistent in der Datenbank gespeichert und vom Backend verwaltet. </p>
-    <p> Auf diese Weise werden Kandidat*innen strukturiert im System erfasst und für die weitere Verarbeitung innerhalb der Anwendung bereitgestellt. </p>
-  </div>
-  <hr style="opacity:0.2">
-  <div style="margin-left: 1.5em;">
-    <h4>Admin</h4>
-    <p> Administrator*innen verfügen über erweiterte Rechte zur systemweiten Steuerung und Pflege der Daten. Dazu gehören unter anderem das Anlegen und Verwalten von Gremien, das Hinzufügen und Bearbeiten von Aussagen sowie die Validierung von Wahllisten. </p>
-    <p> Darüber hinaus können Administrator*innen Kandidat*innen und Listen löschen oder anpassen und erhalten einen umfassenden Überblick über die im System gespeicherten Daten.</p>
-    <p> Der Zugriff auf diese Funktionen ist ausschließlich autorisierten Benutzer*innen vorbehalten. </p>
-  </div>
-  <hr style="opacity:0.2">
+<h3>Student Users</h3>
+<ul>
+  <li>Login and registration </li>
+  <li> Option for password reset </li>
+  <li> Giving points on a scale of 1-10 on predefined statements </li>
+  <li> Based on that, the user will get matched and then see a list of candidates and their committees </li>
+</ul>
 
-<br>
-</details>
-
-
+ <h3>Candidates</h3>
+<ul>
+  <li>Login and registration </li>
+  <li> Can manage their candidate profiles </li>
+  <li> Giving points on a scale of 1-10 on predefined statements </li>
+</ul>
+ 
+ <h3> Administrators</h3>
+<ul>
+  <li>Login and registration </li>
+  <li> Manage committees and election categories </li>
+  <li> Create and edit statements </li>
+  <li>Validate electoral lists</li>
+  <li >Manage candidates and stored data</li>
+</ul>
 
 <!-- –––––––––– SCREENSHOTS –––––––––– -->
 
-<details open>
+
 <summary>
-Screenshots
+<h2>Screenshots</h2>
 </summary> <br />
 
 <p align="center">
-<img width="49%"  alt="startseite" src="https://github.com/user-attachments/assets/43db17ea-1308-4261-af2d-7b5983bae422" />
+  <p> Landing pages for users and User login/ registration </p>
 <img width="49%"  alt="start" src="https://github.com/user-attachments/assets/6967c431-0b56-476f-bedd-25f0f365b1b4" />  
-</p>
+<img width="49%"  alt="register" src="https://github.com/user-attachments/assets/3d846e80-d210-4227-9c67-67a7d72398af" />
 
+</p>
+  <p> Questionair with statements and filtering options</p>
 <p align="center">
 <img width="49%"  alt="fragebogen" src="https://github.com/user-attachments/assets/507f6085-e3fe-467e-aba2-6d10ea4cb739" />
-<img width="49%"  alt="register" src="https://github.com/user-attachments/assets/3d846e80-d210-4227-9c67-67a7d72398af" />
+<img width="49%"  alt="fachbereich" src="https://github.com/user-attachments/assets/9c1a0178-ebe6-49ac-9e6a-bf27a9e267b7" />
 </p>
 
-
+ <p> Match results </p>
 <p align="center">
- <img width="49%"  alt="fachbereich" src="https://github.com/user-attachments/assets/9c1a0178-ebe6-49ac-9e6a-bf27a9e267b7" />
- <img width="49%"  alt="ergebnis" src="https://github.com/user-attachments/assets/0cbe2c41-5d4d-4407-913c-a66e6034374a" />
+ <img width="500"  alt="ergebnis" src="https://github.com/user-attachments/assets/0cbe2c41-5d4d-4407-913c-a66e6034374a" />
 </p>
+
+  <p> Adim page view </p>
+<p align="center">
+  <img width="49%" alt="start" src="https://github.com/user-attachments/assets/601f9791-b08f-4e32-9c2d-9a7a226a002b" />
+</p>
+
 
 <br><br>
-</details>
+
 
 <br>
 
@@ -78,132 +95,49 @@ Screenshots
 
 <!-- –––––––––– TECHNOLOGIEN –––––––––– -->
 
-<h2 id="technologien">Angewandte Technologien</h2>
+<h2 id="technologien">Architecture</h2>
 
 <ul>
   <li><strong>Frontend:</strong> JavaScript (Angular)</li>
-  <li><strong>Backend:</strong> Spring Boot</li>
-  <li><strong>Programmiersprache:</strong> Java</li>
-  <li><strong>Datenbank:</strong> PostgreSQL</li> <li><strong>API:</strong>
-  REST</li> <li><strong>API-Dokumentation:</strong> OpenAPI / Swagger</li>
+  <li><strong>Backend:</strong> Java Spring Boot</li>
+  <li><strong>Database:</strong> PostgreSQL</li> 
+  <li><strong>API:</strong> REST API, Swagger/ OpenAPI</li> 
+  <li><strong>Authentication:</strong> JWT </li> 
+
 </ul>
+  <p>  </p>
+<p align="left">
+<img width="200" height="300" alt="Screenshot 2026-06-04 at 08 59 02" src="https://github.com/user-attachments/assets/3b1d1441-2995-47d5-aecb-d611f8f69d79" />
 
+</p>
 <hr>
-
-
-
 
 
 <!-- –––––––––– TEAM –––––––––– -->
 
-<h3 id="authors">Autor*innen</h3>
+<h3 id="authors">Authors</h3>
 
-<p>Dieses Projekt wurde im Rahmen eines Hochschulprojekts entwickelt von:</p> 
+<p>Developed as a university software engineering project by a team of 8 students using Scrum.</p> 
+<p> Team </p>
+<ul>
+  <li>Scrum master: Nicole Eisner</li>
+  <li>Product Owner: Danusika Kirupakaran</li>
+  <li>Developer Team: Celine Dumke, Luise Tabatt, Natalia Schmidt, Gamze Bektas, Cemre Karsli,Delal Erdogan, Maeva Nguemezi </li>
+</ul>
 
 <br>
-
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
-
-  <div style="text-align: center;">
-    <p><strong>Nicole Eisner</strong><br> <p style="font-weight: 300;">(Scrum-Master)</p>
-  </div>
-
-  <div style="text-align: center;">
-    <p><strong>Danusika Kirupakaran</strong><br> <p style="font-weight: 300;">(Product Owner)</p>
-  </div>
-  
-  <div>
-<p style="font-weight: 300;">Developer: </p>
-  </div>
-  
-  <div style="text-align: center;">
-    <p><strong>Celine Dumke, Luise Tabatt, Natalia Schmidt, Gamze Bektas, Cemre Karsli,Delal Erdogan, Maeva Nguemezi </strong><br>
-  </div>
 <br>
 <hr>
 
-<blockquote>
-<p>
-  Dieses Repository enthält das <strong>Backend</strong> des HTWahl-O-Mat.<br>
-  Das zugehörige Frontend befindet sich in einem separaten Repository:
-</p>
-
-<p>
-  <a href="https://gitlab.rz.htw-berlin.de/s0575626/wahlomat-frontend" style="color: #76b900;">
-    HTWahl-O-Mat Frontend
-  </a>
-</p>
-
-<p>
-  Das Backend ist mit einer internen PostgreSQL-Datenbank verbunden.<br>
-
-  Für den Betrieb ist eine Verbindung zum HTW-Netz oder eine aktive
-  VPN-Verbindung erforderlich.
-</p>
-</blockquote>
 
 
-<h2 id="code">Code-Dokumentation</h2>
 
-<p>
-  Der Source-Code ist mit <strong>JavaDoc</strong> dokumentiert, um Wartung und
-  Weiterentwicklung zu erleichtern.
-</p>
-
-<p>
-
-<br>
-<hr>
-<br>
 
 
 
   
-</p>
-<h2  id="english"> English version of readme </h2>
-
-This repository contains the backend of the Wahl-O-Mat (Full-Stack) project. 
-This is being developed for university intern elections. Last year only 5% of students voted in the elections. With this we hope to simplify the voting process and therefore encourage a higher number of people to give in their vote.
-The voter and candidates can both give ratings to questions. Based on those numbers the fitting top candidates per party are given to the voters. 
-
-The application also provides secure authentication, reset password, candidate profiles, and result calculations.
-
- <h2>Team</h2>
-<h4> Product Owner:</h4>
-Danusika Kirupakan 
-
-<h4>Scrum Master: </h4>
-Nicole Eisner
-
-<h4>Developer: </h4>
-Celine Dumke,
-Luise Tabatt,
-Natalia Schmnidt,
-Gamze Bektas,
-Cemre Karsli,
-Delal Erdogan,
-Maeva Nguemezi
 
 
- <h2>Features</h2>
- 
-- User registration and login (voters & candidates)
-- Secure authentication and authorization (JWT token)
-- Voting process with validation
-- Automatic vote counting and result calculation
-- RESTful API for frontend integration
-- API documentation with Swagger
-- Code documentation with Javadoc
-- Unit tests with JUnit
 
 
-<h2>Tech Stack</h2>
 
-- Language:Java
-- Framework: Spring Boot
-- Database: PostgreSQL
-- ORM: Spring Data JPA / Hibernate
-- API Documentation**: Swagger (OpenAPI)
-- Documentation: Javadoc
-- Build Tool: Maven
-- Testing: Junit and Integration tests with h2

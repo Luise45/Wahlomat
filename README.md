@@ -9,8 +9,8 @@
 
 <h2> About this Repository </h2>
 
-This repository contains the backend portion of a university team project developed at HTW Berlin.
-The original project was developed collaboratively in a private GitLab repository. 
+This repository contains the backend code of a university team project developed at HTW Berlin.
+The original project was developed in collaboration in a private HTW GitLab repository. 
 Since my primary contribution was backend development, this repository contains only the backend code and has been published with permission from the project team.
 
 <h3> My Contributions </h3>
@@ -30,7 +30,7 @@ Since my primary contribution was backend development, this repository contains 
 
 HTWahl-O-Mat is a web application made for university elections. The idea came from the fact, that only a small percentage of student participate in the elections. With this application we wanted to simplifiy the process and get more students to vote. 
 The process is made up of predefined statements, which both students and cadidates assess with points. Then the system calculates matches, based on the points given to each statement,  and provides an overview of which candidates and committees align most closely with the student's views.
-The goal of the application is to provide transparent and accessible guidance for university elections.
+The goal of the application is to provide accessible guidance for university elections and get more students to participate.
 
 </p>
 
@@ -58,8 +58,8 @@ The goal of the application is to provide transparent and accessible guidance fo
   <li>Login and registration </li>
   <li> Manage committees and election categories </li>
   <li> Create and edit statements </li>
-  <li>Validate electoral lists</li>
-  <li >Manage candidates and stored data</li>
+  <li>Validate election lists</li>
+  <li >Manage candidates and their data</li>
 </ul>
 
 <!-- –––––––––– SCREENSHOTS –––––––––– -->
@@ -68,6 +68,7 @@ The goal of the application is to provide transparent and accessible guidance fo
 <summary>
 <h2>Screenshots</h2>
 </summary> <br />
+<p>please click on a pictures for a better view </p>
 
 <p align="center">
   <p> Landing pages for users and User login/ registration </p>

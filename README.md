@@ -15,11 +15,10 @@ Since my primary contribution was backend development, this repository contains 
 
 <h3> My Contributions </h3>
 <ul>
-  <li>Backend development using Spring Boot </li>
-  <li>Design and implementation of REST APIs </li>
-  <li>JWT-based authentication and authorization </li>
-  <li> PostgreSQL database integration</li>
-  <li> API documentation using Swagger/OpenAPI </li>
+  <li>Contributed to the backend development using Spring Boot </li>
+  <li>Design and implementation of some of the REST APIs </li>
+  <li>PostgreSQL database integration</li>
+  <li> Helped with API documentation using Swagger/OpenAPI </li>
   <li> JavaDoc documentation</li>
 </ul>
 
